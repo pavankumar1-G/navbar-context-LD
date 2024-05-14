@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.about-container {
+  font-family: Roboto;
+}
+
+.light-about-content-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.light-about-text {
+  color: #1e293b;
+}
+.about-icon {
+  height: 150px;
+}
+.dark-about-content-container {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dark-about-text {
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .light-about-text {
+    font-size: 40px;
+  }
+  .about-icon {
+    height: 200px;
+  }
+  .dark-about-text {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,125 @@
+/* Write your CSS here */
+.light-navbar-container {
+  background-color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.light-website-logo {
+  height: 40px;
+}
+.light-btn-img-icon {
+  height: 30px;
+}
+.theme-change-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.menu-item-link {
+  text-decoration: none;
+}
+.light-navbar-item {
+  margin: 10px;
+}
+.navbar-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hz-line {
+  border: 1px solid #dcdcdc;
+  margin: 10px;
+  margin-top: 0;
+}
+.dark-navbar-container {
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.dark-website-logo {
+  height: 40px;
+}
+.dark-btn-img-icon {
+  height: 30px;
+}
+.theme-change-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.navbar-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.menu-item-link {
+  text-decoration: none;
+}
+.dark-navbar-item {
+  margin: 10px;
+  color: #ffffff;
+}
+.navbar-menu-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .light-navbar-container {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+  }
+  .light-website-logo {
+    height: 80px;
+  }
+  .light-btn-img-icon {
+    height: 60px;
+  }
+
+  .light-navbar-item {
+    margin: 15px;
+    font-size: 20px;
+  }
+
+  .dark-navbar-container {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .dark-website-logo {
+    height: 80px;
+  }
+  .dark-btn-img-icon {
+    height: 60px;
+  }
+
+  .dark-navbar-item {
+    margin: 15px;
+    font-size: 20px;
+  }
+}
